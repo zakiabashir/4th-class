@@ -1,4 +1,4 @@
-export default function City(props){
+export default function City(props:any){
     console.log(props)
     return(
         <>

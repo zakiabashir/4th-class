@@ -5,11 +5,6 @@ import Link from 'next/link';
 
 const ContactSection = () => {
 
-  const socials = [
-    { icon: 'github-icon.svg', path: 'https://github.com/dashboard' },
-    { icon: 'linkedin-icon.svg', path: 'https://www.linkedin.com/in/zakia-bashir-367b41254/' },
-  ];
-
   return (
     <section id="contact" className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-8 relative z-10 ' >
       <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2'></div>
@@ -22,18 +17,7 @@ const ContactSection = () => {
           I will try my best to get back to you!
         </p>
         <br></br>
-        <div className='socials flex flex-row gap-2'>
-        <br></br>
-          {socials.map((social, index) => (
-            <Link key={index} href={social.path} target='_blank'>
-              <img src={`icons/${social.icon}`}
-                alt={social.path.split('/')[2]}
-                className='w-6 h-6 hover:brightness-200'
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
-            </Link>
-          ))}
-        </div>
+        
       </div>
       <div>
         <form className='flex flex-col' >
