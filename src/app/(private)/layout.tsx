@@ -32,7 +32,7 @@ export default function RootLayout({
             <Link href="/about">About-us</Link>
             </li>
             <li>
-            <Link href="/">Logout</Link>
+            <Link href="../login">Logout</Link>
             </li>
           </ul>
         </div>
