@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import Link from 'next/link';
+
 
 const ContactSection = () => {
 
@@ -23,15 +23,7 @@ const ContactSection = () => {
         <br></br>
         <div className='socials flex flex-row gap-2'>
         <br></br>
-          {socials.map((social, index) => (
-            <Link key={index} href={social.path} target='_blank'>
-              <img src={`icons/${social.icon}`}
-                alt={social.path.split('/')[2]}
-                className='w-6 h-6 hover:brightness-200'
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
-            </Link>
-          ))}
+          
         </div>
       </div>
       <div>

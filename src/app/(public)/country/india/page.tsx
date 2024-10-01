@@ -1,5 +1,5 @@
 import City from "@/app/components/city";
-export default function India({params}:{params:{country_name:string, population:number, capital:string}}){
+export default function India(){
     const country_name="India"
     const population=123456;
     const capital="Dhaka"

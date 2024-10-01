@@ -1,5 +1,5 @@
 import City from "@/app/components/city";
-export default function Bangladesh({params}:{params:{country_name:string, population:number, capital:string}}){
+export default function Bangladesh(){
     const country_name="Bangladesh"
     const population=123456;
     const capital="jnhbrgfvcdxsz"
