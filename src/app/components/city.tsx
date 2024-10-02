@@ -1,4 +1,4 @@
-export default function City(props:any){
+export default function City(props:{country_name:string, capital:string, population:number;}){
     console.log(props)
     return(
         <>
