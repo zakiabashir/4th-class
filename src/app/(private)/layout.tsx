@@ -36,7 +36,7 @@ export default function RootLayout({
             </li>
           </ul>
         </div>
-        <div className="bg-gradient-to-r from-blue-300  to-indigo-400 
+        <div className="pt-4 bg-gradient-to-r from-blue-300  to-indigo-400 
         shadow-[0_0_10px_5px_rgba(0,0,0,0.5)_0_0_20px_10px_rgba(0,0,0,0.2)] 
         text-red-500 ml-48 h-screen flex justify-center items-center text-center">
           {children}

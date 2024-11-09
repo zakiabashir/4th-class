@@ -36,7 +36,7 @@ export default function RootLayout({
  
         <div style={{ height:"500px", marginTop:"50px",  marginBottom:"100px"}}>
         <Navbar/><br /><br />
-        <Nav/><br />
+       
         {children}
        
         </div>

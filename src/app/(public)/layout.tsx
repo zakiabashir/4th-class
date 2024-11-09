@@ -33,7 +33,7 @@ export default function RootLayout({
       text-center h-20 flex justify-center items-center"><Header/></div>
       <div className="bg-gradient-to-r from-blue-300  to-red-300  text-center h-100 flex justify-center items-center">
  
-        <div style={{ height:"500px", marginTop:"100px",  marginBottom:"100px"}}>
+        <div style={{ height:"auto", marginTop:"100px",  marginBottom:"100px"}}>
         
         {children}
         </div>

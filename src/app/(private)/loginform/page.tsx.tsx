@@ -1,23 +1,14 @@
-// import Link from "next/link";
-
-// export default function Login() {
-//     return (
-//         <div>Click here to <Link href="/dashboard">Login</Link></div>
-//     );
-// }
-
-/// pages/login.js
-"use client";
-
-import Link from 'next/link'; // Correct import for navigation links
+// pages/login.js
+import { Link } from 'lucide-react';
 import React, { useState } from 'react';
 
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {  // Specify type here
     e.preventDefault();
+    // Handle login logic here
     console.log('Email:', email);
     console.log('Password:', password);
   };
@@ -57,14 +48,15 @@ export default function Login() {
             type="submit"
             className="w-full px-4 py-2 text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700"
           >
-            <Link href="/dashboard">Login</Link>
+            <Link href='/dashboard'> Login</Link>
+           
           </button>
         </form>
         <p className="text-sm text-center text-gray-600">
-          Don’t have an account?{' '}
-          <Link href="/signup" className="text-indigo-600 hover:underline">
+          Donot have an account?{' '}
+          <a href="/signup" className="text-indigo-600 hover:underline">
             Sign up
-          </Link>
+          </a>
         </p>
       </div>
     </div>
