@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 
 import Header from "@/app/components/header";
 import Navbar from "./component/navbar";
-import Nav from "@/app/components/nav";
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
