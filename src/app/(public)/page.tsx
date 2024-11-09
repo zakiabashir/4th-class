@@ -1,6 +1,7 @@
+
 export default function Home() {
   return (
-    <div>
+    <><div>
       <h1 className="text-bolder-900 text-red-900">Wellcome to my web Page</h1>
       <br />
       <h3>Governor House Sindh (GIAIC)</h3>
@@ -13,17 +14,6 @@ export default function Home() {
         AI-driven innovations into development projects, optimizing workflows
         <br /> and enhancing user experiences.
       </p>
-    </div>
+    </div></>
   );
-}
-// app/page.js
-
-import React from 'react';
-
-export  function MyPage() {
-    return (
-        <div >
-          
-        </div>
-    );
 }
