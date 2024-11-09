@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 //import "./globals.css";
 
 import Header from "@/app/components/header";
-import Footer from "@/app/components/footer"
 import Navbar from "./component/navbar";
+import Nav from "@/app/components/nav";
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
@@ -36,10 +36,11 @@ export default function RootLayout({
  
         <div style={{ height:"500px", marginTop:"50px",  marginBottom:"100px"}}>
         <Navbar/><br /><br />
+        <Nav/><br />
         {children}
+       
         </div>
         </div>
-        <div className="bg-gradient-to-r from-purple-300  to-gray-400  text-2xl font-extrabold text-red-500 text-center h-20 flex justify-center items-center"><Footer/></div>
 
         
       </body>

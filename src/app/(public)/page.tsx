@@ -16,3 +16,14 @@ export default function Home() {
     </div>
   );
 }
+// app/page.js
+
+import React from 'react';
+
+export  function MyPage() {
+    return (
+        <div >
+          
+        </div>
+    );
+}
